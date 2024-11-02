@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar/navbar'; // Ensure the correct import with an uppercase name
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
@@ -12,7 +11,6 @@ import { Footer } from './components/Footer/Footer';
 import men_banner from './components/Assets/banner_mens.png'
 import women_banner from './components/Assets/banner_women.png'
 import kid_banner from './components/Assets/banner_kids.png'
-import { ShopContext } from './context/ShopContext';
 
 
 function App() {
